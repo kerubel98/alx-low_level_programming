@@ -3,7 +3,8 @@
 /**
  * main -printes all posibel conbination of two digit numbers
  *
- * return: alwyes zero 0 .
+ * 
+ * return: alwyes zero 0.
  */
 int main(void)
 {
@@ -27,7 +28,6 @@ putchar(' ');
 }
 
 putchar('\n');
-/* the program returns zero for close
- */
+
 return (0);
 }
