@@ -27,6 +27,7 @@ putchar(' ');
 }
 
 putchar('\n');
-
+/* the program returns zero for close
+ */
 return (0);
 }
