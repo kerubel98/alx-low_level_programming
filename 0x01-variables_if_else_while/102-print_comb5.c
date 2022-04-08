@@ -4,7 +4,7 @@
  * main -printes all posibel conbination of two digit numbers
  *
  *
- * return: alwyes zero 0.
+ * Return: alwyes zero 0.
  */
 int main(void)
 {
