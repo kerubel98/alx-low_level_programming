@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main is wher the progeram keek start
+ * main - is wher the progeram keek start
  *
  *
- * Return type is allweyes 0.
+ * Return:  allweyes 0.
  */
 int main(void)
 {
