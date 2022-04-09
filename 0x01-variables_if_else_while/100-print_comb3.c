@@ -29,6 +29,7 @@ putchar(' ');
 putchar('\n');
 
 return (0);
+
 }
 ~
 ~
@@ -49,5 +50,4 @@ return (0);
 ~
 ~
 ~
-                                                                                                                                                                              25,1          All
-
+                                                                                                                                                                              25,1          Al
