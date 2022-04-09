@@ -1,4 +1,4 @@
-#include<stdio.h>
+include<stdio.h>
 
 /**
  * main- the progeram startes hear
@@ -32,23 +32,20 @@ return (0);
 
 
 }
-(
-^
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                                                                                                                                                               25,1          Al
