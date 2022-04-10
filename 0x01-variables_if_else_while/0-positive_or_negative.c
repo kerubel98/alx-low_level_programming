@@ -6,7 +6,7 @@
  * main -intery point
  *
  *  
- * Return : ending point
+ * Return: ending point
  */
 int main(void)
 {
