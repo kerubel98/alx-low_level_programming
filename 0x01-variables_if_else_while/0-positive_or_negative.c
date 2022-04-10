@@ -14,7 +14,7 @@ n = rand() - RAND_MAX / 2;
 
 printf("lat digit of%d is %d %s\n", n, n % 10,
 		((n % 10) == 0) ? "and is greater than 5"
-		: "and is les than 6 and not 0"));
+		: "and is les than 6 and not 0");
 
 /* your code goes there */
 return (0);
