@@ -12,7 +12,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-printf((n == 0) ? "and is 0": ((n % 10) > 0) ? n "is positive"
+printf((n == 0) ? "and is 0": ((n % 10) > 0) ?  "%d is positive"
 		: "and is nagetive");
 
 /* your code goes there */
