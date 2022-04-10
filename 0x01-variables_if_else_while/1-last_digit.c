@@ -17,7 +17,7 @@ int main(void)
 
 	printf("Last digit of %d is %d %s\n", n, n % 10,
 		((n % 10) == 0) ? "and i 0"
-		:(((n % 10) >5) ? "is and greater than 5"
+		:(((n % 10) > 5) ? "is and greater than 5"
 		: "and is les than 6 and not 0"));
 
 	return (0);
