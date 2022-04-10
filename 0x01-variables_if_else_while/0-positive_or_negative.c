@@ -12,10 +12,8 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-printf("lat digit of %d is %d %s\n", n, n % 10,
-		((n % 10) == 0) ? "and is 0"
-		:(((n % 10) > 0) ? " is positive"
-		: "and is nagetive"));
+printf((n == 0) ? "and is 0": ((n % 10) > 0) ? " is positive"
+		: "and is nagetive");
 
 /* your code goes there */
 return (0);
