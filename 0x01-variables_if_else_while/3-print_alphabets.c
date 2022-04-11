@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
+ * main -the entry point
  *
- * main -the entry point 
  *
+ * Return: alweyes 0
  */
 int main(void)
 {
@@ -16,6 +18,6 @@ int main(void)
 		putchar('A' + c);
 
 	putchar('\n');
-	
+
 	return (0);
 }
