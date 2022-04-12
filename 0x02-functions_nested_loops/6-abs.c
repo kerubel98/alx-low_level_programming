@@ -5,7 +5,7 @@
  *
  *
  */
-int _abs(int)
+int _abs(int a)
 {
 	int a;
 	
