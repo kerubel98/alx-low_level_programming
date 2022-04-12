@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_abs -returns absulut valu of a 
+ *_abs -returns absulut valu of a
  *@a: output changes the value of a
  *Return: the systm retuns postive valu of a
  */
