@@ -4,7 +4,7 @@
  * main - is wher the progeram starts
  *
  *
- * Return: valus are what the function returns 
+ * Return: valus are what the function returns
  */
 int main(void)
 {
