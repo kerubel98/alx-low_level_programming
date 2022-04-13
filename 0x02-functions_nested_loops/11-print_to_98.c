@@ -19,8 +19,8 @@ void print_to_98(int a)
 
 	else
 	{
-	while (a > 98)
-	printf("%d, ", a--);
+	while (a < 98)
+	printf("%d, ", a++);
 	printf("%d\n", a);
 	}
 }
