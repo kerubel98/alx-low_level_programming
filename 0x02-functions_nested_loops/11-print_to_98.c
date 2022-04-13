@@ -3,7 +3,7 @@
 /**
  *print_to_98 - printes num up to 98
  *@a: parameter the function takes it is int type
- *Return: typ is void 
+ *Return: typ is void
  */
 void print_to_98(int a)
 {
@@ -12,13 +12,11 @@ void print_to_98(int a)
 	if (a <= 98)
 	{
 		for (i = a; i <=98; i++)
-			_putchar(i);
+			_putchar('%d, ', i);
 	}
 	else
 	{
 		for (i = a; i >= 98; i--)
-			_putchar(i);
+			_putchar('%d, ', i);
 	}
-	_putchar(' ');
-	_putchar(',');
 }
