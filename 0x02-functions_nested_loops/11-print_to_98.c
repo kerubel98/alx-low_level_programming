@@ -12,12 +12,12 @@ void print_to_98(int a)
 	if (a <= 98)
 	{
 	
-		_putchar('%d', a);
+		printf("%d", a);
 		a++;
 	}
 	else
 	{
-			_putchar("%d", a);
+		printf("%d", a);
 		a--;
 	}
 }
