@@ -13,15 +13,15 @@ void print_to_98(int a)
 	{
 	while (a <= 98)
 
-		printf("%d, ", a++);
-		printf("%d\n", a);
+	printf("%d, ", a++);
+	printf("%d\n", a);
 	}
 
 	else
 	{
 	while (a >= 98)
 
-		printf("%d, ", a--);
-		pintf("%d\n", a);
+	printf("%d, ", a--);
+	pintf("%d\n", a);
 	}
 }
