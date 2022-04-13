@@ -2,10 +2,10 @@
 
 /**
  *print_to_98 - printes num up to 98
- *@n: parameter the function takes it is int type
+ *@a: parameter the function takes it is int type
  *Return: typ is void 
  */
-void print_to_98(int n)
+void print_to_98(int a)
 {
 	int i;
 
