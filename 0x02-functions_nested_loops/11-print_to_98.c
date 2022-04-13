@@ -7,16 +7,18 @@
  */
 void print_to_98(int a)
 {
-	int i;
+
 
 	if (a <= 98)
 	{
-		for (i = a; i <=98; i++)
-			_putchar("%d", i);
+		for (a <=98)
+			_putchar("%d", a);
+		a++;
 	}
 	else
 	{
-		for (i = a; i >= 98; i--)
+		for (i >= 98;)
 			_putchar("%d", i);
+		a--;
 	}
 }
