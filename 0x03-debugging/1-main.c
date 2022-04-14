@@ -2,7 +2,7 @@
 
 /**
  * main - causes an infinite loop
- * Return: 0
+ * Return: zero
  */
 
 int main(void)
@@ -12,6 +12,7 @@ int main(void)
 	printf("Infinitr loop incomming :(\n");
 
 	i = 0;
+
 	/*
 `	 * while (i < 10)
 	 * {
