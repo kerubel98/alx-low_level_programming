@@ -2,7 +2,7 @@
 
 /**
  * _isupper -returnes 1 for upper case letter
- * @c: is the parmeter 
+ * @c: is the parmeter
  *
  * Return: the prog returns 1 and zero
  */
