@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * Print_diagonal - print diagonals
+ *@n: limet
+ *Return: no return valu for void
  */
 void print_diagonal(int n)
 {
