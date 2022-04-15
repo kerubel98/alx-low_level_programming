@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints fizz for int divisibele by 3 and buzz for 5
+ * main - prints fizz for int divisibele by five and three
  *
  * Return: value is zero
  */
