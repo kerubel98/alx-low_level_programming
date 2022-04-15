@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - returns multiplication 
+ * mul - multiplies  two integers 
  * @a: int tayp
  * @b: int tayp
  * Return: returns the result 
