@@ -11,18 +11,11 @@ Void more_numbers(void)
 
 	for (a = 0; a< 10; a++)
 	{
-	for (i = 0; i <= 1; i++)
-	{	
-	for (j = 0; i <= 9; j++)
+	for (i = 0; i <= 14; i++)
 	{
-	if (!(i == 1 && j >= 5))
-	{
-	if (i)
 	_putchar(i + '0');
-	_putchar(j + '0');
-	}
 	}
 	}
 	putchar('\n');
-	}
+
 }
