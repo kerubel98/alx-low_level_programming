@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper -returnes 1 for upper case letter
+ * _isupper - returnes 1 for upper case letter
  * @c: is the parmeter
  *
  * Return: the prog returns 1 and zero
@@ -16,5 +16,6 @@ int _isupper(int c)
 	{
 		return (0);
         }
+	return (0);
 }
 
