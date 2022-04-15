@@ -6,7 +6,7 @@
 int mul(int a, int b)
 {
 	int sum;
-	sum = a + b;
-	printf("%d\n", sum);
+	sum = a*b;
+	printf("%d\n", mul);
 	return (0);
 }
