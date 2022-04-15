@@ -2,8 +2,8 @@
 
 /**
  * mul - multiplies  two integers 
- * @a: int tayp
- * @b: int tayp
+ * @a: first number
+ * @b: second number
  * Return: returns the result 
  */
 int mul(int a, int b)
