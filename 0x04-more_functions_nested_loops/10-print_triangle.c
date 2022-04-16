@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_triangle - prints # in triangel shep
+ * @size: the size of the trialgel
+ * Return: void
  */
 void print_triangle(int size)
 {
