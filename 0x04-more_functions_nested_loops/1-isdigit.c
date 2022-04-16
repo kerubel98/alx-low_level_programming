@@ -3,19 +3,19 @@
 /**
  * _isdigit - chackes if it is digit
  *
- *@c: int typ
+ * @c: int typ
  * Return: prog returns 0 and 1
  */
 int _isdigit(int c)
 {
 	if (c >= 0 && c <= 9)
-	{ 
+	{
 		return (1);
 	}
-	else 
+	else
 	{
 	       return (0);
 	}
 	return (0);
-}	
-		
+}
+
