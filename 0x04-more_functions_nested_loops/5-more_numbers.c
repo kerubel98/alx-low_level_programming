@@ -17,7 +17,7 @@ void more_numbers(void)
 	{
 	if(!(i == 1 && j >= 5))
 	{
-	if (i)	
+	if (i)
 	_putchar(i + '0');
 	_putchar(j + '0');
 	}
