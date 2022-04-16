@@ -5,7 +5,7 @@
  *
  * Return: Void
  */
-Void more_numbers(void)
+void more_numbers(void)
 {
 	int i, j, a;
 
@@ -16,6 +16,6 @@ Void more_numbers(void)
 	_putchar(i + '0');
 	}
 	}
-	putchar('\n');
+	_putchar('\n');
 
 }
