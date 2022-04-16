@@ -3,8 +3,10 @@
 /**
  * print_triangle - prints # in triangel shep
  * @size: the size of the trialgel
+ *
  * Return: void
  */
+
 void print_triangle(int size)
 {
 	int i, j;
@@ -25,7 +27,7 @@ void print_triangle(int size)
 	}
 	else
 	{
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
 
