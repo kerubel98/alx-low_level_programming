@@ -11,9 +11,10 @@
 int _strlen(char *s)
 {
 	int lngth;
+	s = "my first strlen!";
 
 
-	lngth = strlen(const char *s);
+	lngth = strlen(s);
 
 	return (lngth);
 }
