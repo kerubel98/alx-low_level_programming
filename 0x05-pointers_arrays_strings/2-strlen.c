@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _strlen - takes sting
@@ -9,9 +10,10 @@
 
 int _strlen(char *s)
 {
-	char lngth:
+	int lngth;
+	char v = *s;
 
-	lngth = strlein(*s);
+	lngth = strlen(s);
 
 	return (lngth);
 }
