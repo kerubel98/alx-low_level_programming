@@ -4,8 +4,8 @@
 
 /**
  * _strlen - takes sting
- * @s - pointes to sring
- * Return : length of string
+ * @s: pointes to sring
+ * Return: length of string
  */
 
 int _strlen(char *s)
