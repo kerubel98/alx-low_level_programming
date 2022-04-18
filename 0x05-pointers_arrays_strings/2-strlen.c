@@ -11,7 +11,6 @@
 int _strlen(char *s)
 {
 	int lngth;
-	s = "my first strlen!";
 
 
 	lngth = strlen(s);
