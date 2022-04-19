@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts2 - printe the next num 
- * 
+ * puts2 - printe the next num
+ *
  * @str: parameter
  * Returen: void
  */
@@ -13,7 +13,7 @@ void puts2(char *str)
 	char tmp;
 
 	while (str[len] != 0)
-	{	
+	{
 		len++;
 	}
 	len = len - 1;
