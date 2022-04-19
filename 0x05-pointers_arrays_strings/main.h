@@ -7,5 +7,6 @@ void _puts(char *str);
 void print_rev(char *s);
 int _putchar(char c);
 void randompas(int N);
+char *_strcpy(char *dest, char *src);
 
 #endif
