@@ -5,16 +5,16 @@
  *
  * @dest: the firt string
  * @src: the scond string
- * Return: char
+ * Return: pointer
  */
 
 char *_strcat(char *dest, char *src)
 {
-int j = 0;
-int i;
-for (j = 0; j !='\0'; j++)
+int j, i;
+
+for (j = 0; dest[j] !='\0'; j++)
 	;
-for (i = 0; i != '\0'; i++)
+for (i = 0; src[i] != '\0'; i++)
 {
 dest [j] = src [i];
 j++;
