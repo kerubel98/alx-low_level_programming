@@ -18,5 +18,5 @@ for (i = 0; i != '\0'; i++)
 dest [j] += src [i];
 j++;
 }
-return (*dest);
+return (dest);
 }
