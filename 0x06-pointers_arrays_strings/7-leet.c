@@ -20,9 +20,9 @@ char *leet(char *s)
 	for (x = 0; s[x] != '\0'; x++)
 	{
 
-		for ( y = 0; cod [x] != '\0' && ucod[y] != '\0'; y++)
+		for (y = 0; cod [x] != '\0' && ucod[y] != '\0'; y++)
 		{
-			if ( s[x] == cod[y] || s[x] == ucod[y])
+			if (s[x] == cod[y] || s[x] == ucod[y])
 			{
 				s[x] = num[y];
 				break;
