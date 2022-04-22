@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
+ * reverse_array - reverses arry
+ * @a: arry to be reverced
  *
- *
- *
- *
+ * @n: arry size
+ * Return: void
  */
 
 void reverse_array(int *a, int n)
