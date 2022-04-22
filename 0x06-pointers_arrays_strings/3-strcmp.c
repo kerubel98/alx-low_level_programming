@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
+ * _strcmp - compaer to stringes 
+ * @s1: the first string
+ * @s2: the second string
+ * Return: zero
  *
  */
 
@@ -12,22 +12,11 @@ int _strcmp(char *s1, char *s2)
 {
 	int x;
 
-	for ( x = 0; s1[x] != 0 && s1[x] == s2[x]; x++)
+	for ( x = 0; s1[x] != 0 || s2[x] != '\0'; x++)
 	{
-		if (s1[x] < s2[x])
-		{
-		
-			return (-1);
-		}
-		else if (s1[x] > s2[x])
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
-		return (0);
+		if (s1[x] != s2[x])
+			return (s1[x] - s2[x]);
 	}
+	return (0);
 }
 
