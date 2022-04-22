@@ -16,9 +16,9 @@ char *cap_string(char *s)
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
-		if (s[x] > 96 && s[x] < 123)
+		if (s[x] >= 'a' && s[x] <= 'z')
 		{
-			s[x] += 32;
+			s[x] = s[x] - 32;
 
 		}
 	}
