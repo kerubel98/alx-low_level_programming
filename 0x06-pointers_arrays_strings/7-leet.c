@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
+ * leet - inception
  *
+ * @s: parameter string
  *
- *
- *
- *
+ * Return: s
  */
 
 char *leet(char *s)
@@ -14,7 +14,7 @@ char *leet(char *s)
 	int y;
 
 	char cod[] = "aeotl";
-	char num[] = "43071";	
+	char num[] = "43071";
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
