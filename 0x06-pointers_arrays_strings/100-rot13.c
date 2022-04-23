@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
+ * rot13 - encod rot 13
  *
+ * @s: string vaiabel
  *
- *
- *
- *
+ * Return: s
  */
 
 char *rot13(char *s)
