@@ -1,14 +1,5 @@
 #include <stdio.h>
 
-/**
- * main -entery point
- *
- * 
- *
- *
- * Return: zero
- */
-
 int main(void)
 {
   int n;
