@@ -3,9 +3,9 @@
 
 /**
  * main - entery of the program
- * 
- * @argc: countes command line arguments 
- * @argv: arg vector 
+ *
+ * @argc: countes command line arguments
+ * @argv: arg vector
  * Return: zero
  */
 
