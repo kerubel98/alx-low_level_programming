@@ -3,6 +3,7 @@
 
 /*
  * str_concat - concatenate two stringes
+ *
  * @s1: frist string
  * @s2: second string
  * Return: pointer to concatednted string
@@ -17,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 	int j = 0;
 	char *ptr;
 
-	if ( s1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
@@ -48,7 +49,7 @@ char *str_concat(char *s1, char *s2)
 		i++;
 		j++;
 	}
-	return(ptr);
+	return (ptr);
 }
 
 
