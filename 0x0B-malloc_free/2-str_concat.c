@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include "main.h"
 
-/*
- * str_concat - concatenate two stringes
+/**
+ * str_concat - concatenate two string
  *
  * @s1: frist string
  * @s2: second string
