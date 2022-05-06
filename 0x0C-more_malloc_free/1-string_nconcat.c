@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	len = i + j;
 
 
-	ptr = malloc(sizeof(char) * len + 1);
+	ptr = malloc(sizeof(char) * (len + 1));
 	if (ptr == NULL)
 		return (NULL);
 	for (p = 0; p < i; p++)
