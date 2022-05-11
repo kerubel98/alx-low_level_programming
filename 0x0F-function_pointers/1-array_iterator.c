@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 #include <stdio.h>
-
+ 
 /**
  * array_iterator - performes whatver action performes on array
  * @array: is parrameter to be passed to action
