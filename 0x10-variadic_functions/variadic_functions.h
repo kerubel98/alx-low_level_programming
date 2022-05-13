@@ -13,6 +13,7 @@ typedef struct check
 	void (*f)(va_list list);
 } check_t;
 int _putchar(char c);
+void print_numbers(const char *separator, const unsigned int n, ...);
 int sum_them_all(const unsigned int n, ...);
 
 #endif 
