@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
-
 /**
- * print_list -is function that print all the dat of the linked list
- * @h: is list_t tyep parameter
+ * print_list - prints all elements of a list_t list
+ * @h: list to print
+ * Return: the no of nodes
  */
 
 size_t print_list(const list_t *h)
@@ -20,10 +20,11 @@ size_t print_list(const list_t *h)
 	 else
 	 {
 		 printf("[%i] %s", h->len ,h->str);
+		 h = h->next;
+		 i++;
 	 }
-	 i++;
     }
     return (i);
-	    
+
 }
 
