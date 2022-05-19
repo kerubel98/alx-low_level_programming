@@ -9,21 +9,21 @@
 
 size_t print_list(const list_t *h)
 {
-    int i =0;
+    int i = 0;
 
-    const list_t  *current_node = h;
-    current_node = malloc(sizeof(list_t));
-    if (current_node = NULL)
+    while (h)
     {
-	    printf("p[0] (nill)");
-    }
-
-    while (current_node != NULL)
-    {
-        printf("%d", current_node ->data);
-        current_node = current_node ->next;
-        i++;
+   	 if (h ->str == NULL)
+	 {
+		 printf("p[0] (nill)");
+	 }
+	 else
+	 {
+		 printf("[%i] %s", h->len ,h->str);
+	 }
+	 i++;
     }
     return (i);
+	    
 }
 
