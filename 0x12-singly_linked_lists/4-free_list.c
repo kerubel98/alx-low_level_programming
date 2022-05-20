@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "lists.h"
+
 /**
  * free_list - frees a list_t list
  * @head: the beginning of the list to free
