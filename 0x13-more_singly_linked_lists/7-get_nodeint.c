@@ -9,7 +9,7 @@
 
 int sizeOf(listint_t *head)
 {
-	int count;
+	int count = 0;
 	while (head)
 	{
 		head = head->next;
