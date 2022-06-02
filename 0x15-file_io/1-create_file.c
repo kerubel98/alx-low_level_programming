@@ -12,7 +12,7 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd, wr,len;
-	len = 0;
+	
 
 	if (filename == NULL)
 		return (-1);
@@ -24,10 +24,9 @@ int create_file(const char *filename, char *text_content)
 			return (-1);
 		return (1);
 	}
-	while(text_content)
-	{
-		len++;
-	}
+	for (len = 0; text_content[len]; len++)
+	{}
+
 	fd = open(filename, O_CREAT | O_WRONLY, 0600);
 	if (fd == -1)
 		return (-1);
@@ -35,7 +34,7 @@ int create_file(const char *filename, char *text_content)
 	wr = write(fd, text_content, len);
 	if (wr == -1)
 	{
-		close (wr);
+		close (fd);
 		return (-1);
 	}
 	close (fd);
