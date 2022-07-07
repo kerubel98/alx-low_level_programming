@@ -1,6 +1,8 @@
 #include "lists.h"
 #include <stdio.h>
-/*print_dlistint - prints all the elements of a list
+
+/**
+ * print_dlistint - prints all the elements of a list
  * @h: pointer to the head of the list
  * Return: the number of nodes
  *
