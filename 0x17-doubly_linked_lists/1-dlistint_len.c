@@ -7,10 +7,10 @@
  * Return: count of nodes
  */
 
-size_t dlistint_len(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h)
 {
 	size_t count = 0;
-	const dlistint * tmp;
+	const dlistint_t * tmp;
 
 	if(h == NULL)
 		return (0);
@@ -19,5 +19,5 @@ size_t dlistint_len(const dlistint_t *h);
 		tmp = tmp->next;
 		count ++;
 	}
-	return (count)
+	return (count);
 }
