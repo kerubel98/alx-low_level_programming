@@ -1,13 +1,13 @@
 #include "hash_tables.h"
 
 /**
- *  * hash_table_get - reteives a value associated with key
- *   * @ht: hash table
- *    * @key: key to look for
- *     *
- *      * Return: value at key
- *       *
- *        */
+ * hash_table_get - reteives a value associated with key
+ * @ht: hash table
+ * @key: key to look for
+ *
+ * Return: value at key
+ *
+ */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int idx;
